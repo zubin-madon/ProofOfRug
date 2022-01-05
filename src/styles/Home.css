@@ -1,0 +1,120 @@
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5em;
+
+  }
+  
+  .headerContainer {
+    width: auto;
+    margin-left: 5em;
+  }
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+  }
+  
+  .headerContainer li, p {
+    padding: 0;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+  
+  h3 {
+    color: #012e67 !important;
+  }
+
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+      margin: 1.5em;
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 3em;
+      padding: 2em;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+    
+    }
+  
+    .headerContainer h1 {
+      font-size: 3em;
+  
+    }
+  
+    .headerContainer p {
+      font-size: 3em;
+    
+    }
+  
+    .headerContainer ul {
+        margin-bottom: 1em;
+    }
+
+    .textContent {
+        margin-bottom: 2em;
+    }
+  }
+
+  .card:hover > .card:hover {
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
+  }
+  .cards:hover > .card:not(:hover) {
+    opacity: 0.5;
+  }
+
+
+  .card__content h3 {
+      color: var(--whitewash) !important;
+      font-size: 3em;
+      text-align: left;
+  }
+  .card__content li {
+      font-size: 1.5em;
+      text-align: left;
+  }
+
+  .card {
+    display: flex;
+    min-height: 5em;
+    margin: 1rem 3rem;
+    max-width: 80%;
+    background: #032e42;
+    border-radius: var(--radius);
+    padding: 1rem 1.5rem;
+    box-shadow: var(--dark-shadow);
+  }
+
+  .row {
+    margin: 0 2em;
+    display: flexbox;
+    width: 100%;
+
+    
+    }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
