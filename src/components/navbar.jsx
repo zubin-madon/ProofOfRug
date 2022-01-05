@@ -16,10 +16,9 @@ function Navbar() {
             <div className='leftSide' id={openLinks ? "open" : "close"}>
             <img id="showAtHighRes" src={Logo} alt="Proof Of Rug Logo"/>
             <div className="hiddenLinks" id="hideAtHighRes">
-            <Link to="/Home">Home</Link>
+            <Link to="/">Home</Link>
                 <Link to="/ETH">ETH Projects</Link>
                 <Link to="/SOL">SOL Projects</Link>
-
                 <div className="socialMedia">
                 <a target="_blank" href="https://twitter.com/proofofrug" rel="noopener noreferrer">
                 <TwitterIcon />
