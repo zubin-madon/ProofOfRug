@@ -24,7 +24,7 @@ const solProjects = [
     image:'https://testlaunchmynft.mypinata.cloud/ipfs/QmRroiapUeXaf8Ubw61QyfLRkCkP2V6GSsNr3CNXNHa5UP/17.png',
     mintDate: 'Minting Now',
     twitter: 'https://twitter.com/PottyPunks',
-    projectLink: 'https://launchmynft.io/collections/ALMHvvutxdaCFU24nL1sohwegimZCknVvsKF6L2JLP6f/lOkMIuFKDo46gddEn5lV', 
+    projectLink: 'https://launchmynft.io/', 
   }
 ];
 
